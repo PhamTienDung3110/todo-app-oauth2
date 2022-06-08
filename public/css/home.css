@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: rgb(244, 244, 244);
+    width: 100vw;
+    height: 80px;
+    padding: 0 100px;
+}
+.header img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+.header p {
+    margin: auto 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header button {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.todoList {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.todoList-add input {
+    width: 60vw;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.todoList-add button {
+    height: 45px;
+    border: none;
+    padding: 0 20px;
+    margin-left: 15px;
+    background-color: #0D6EFD;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
